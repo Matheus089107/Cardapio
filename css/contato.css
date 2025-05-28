@@ -1,16 +1,16 @@
 /* Estilos específicos para a página de contato */
 .contato-content {
     max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+    margin:32px auto;
+    padding: 0 16px;
 }
 
 .contato-content h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 48px;
     color: #2c3e50;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
     position: relative;
 }
 
@@ -20,37 +20,37 @@
     width: 60px;
     height: 3px;
     background-color: #c41e3a;
-    margin: 1rem auto;
+    margin: 16px auto;
 }
 
 .contato-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 48px;
 }
 
 /* Formulário de Contato */
 .contato-form {
     background-color: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contato-form h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 32px;
     color: #2c3e50;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     color: #2c3e50;
     font-weight: 500;
 }
@@ -59,10 +59,10 @@
 .form-group select,
 .form-group textarea {
     width: 100%;
-    padding: 0.8rem;
+    padding:12.8px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -72,12 +72,12 @@
 
 .btn-enviar {
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
     background-color: #c41e3a;
     color: #fff;
     border: none;
     border-radius: 4px;
-    font-size: 1.1rem;
+    font-size: 1.16px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -90,12 +90,12 @@
 .contato-info {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .info-card {
     background-color: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -104,14 +104,14 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     color: #2c3e50;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .info-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #eee;
 }
 
@@ -122,16 +122,16 @@
 }
 
 .info-item i {
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #c41e3a;
-    margin-right: 1rem;
+    margin-right: 16px;
     min-width: 30px;
 }
 
 .info-item h4 {
     font-family: 'Playfair Display', serif;
     color: #2c3e50;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .info-item p {
@@ -142,7 +142,7 @@
 /* Mapa */
 .mapa {
     background-color: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -151,7 +151,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     color: #2c3e50;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .mapa iframe {
