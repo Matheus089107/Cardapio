@@ -168,23 +168,3 @@
         order: -1;
     }
 }
-
-@media (max-width: 768px) {
-    .contato-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .contato-form h2,
-    .info-card h3,
-    .mapa h3 {
-        font-size: 1.5rem;
-    }
-
-    .info-item {
-        flex-direction: column;
-    }
-
-    .info-item i {
-        margin-bottom: 1rem;
-    }
-} 

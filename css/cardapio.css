@@ -1,17 +1,16 @@
 /* Estilos específicos para a página do cardápio */
 .cardapio-content {
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 32px auto;
     padding: 0 1rem;
 }
 
 .cardapio-content h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 48px;
     color: #2c3e50;
     text-align: center;
-    margin-bottom: 3rem;
-    position: relative;
+    margin-bottom: 48px;
 }
 
 .cardapio-content h1::after {
@@ -20,26 +19,28 @@
     width: 60px;
     height: 3px;
     background-color: #c41e3a;
-    margin: 1rem auto;
+    margin: 16px auto;
 }
 
 .menu-section {
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
 }
 
 .menu-section h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 32px;
     color: #2c3e50;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
     border-bottom: 2px solid #eee;
 }
 
 .menu-items {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+    
 }
 
 .menu-item {
@@ -66,7 +67,7 @@
 
 .menu-item-info h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
+    font-size: 1.48px;
     color: #2c3e50;
     margin-bottom: 0.5rem;
 }
@@ -79,7 +80,7 @@
 
 .menu-item-info .price {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.32px;
     color: #c41e3a;
     font-weight: bold;
 }
@@ -90,7 +91,7 @@
     top: 80px;
     background-color: #fff;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -99,7 +100,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .menu-nav a {
@@ -115,27 +116,3 @@
     background-color: #c41e3a;
     color: #fff;
 }
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .cardapio-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .menu-section h2 {
-        font-size: 1.8rem;
-    }
-
-    .menu-items {
-        grid-template-columns: 1fr;
-    }
-
-    .menu-nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .menu-nav li {
-        margin: 0.5rem 0;
-    }
-} 

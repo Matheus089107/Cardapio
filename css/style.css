@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .main-nav a {
@@ -54,17 +54,17 @@ body {
 /* Layout principal */
 .main-content {
     max-width: 1200px;
-    margin: 2rem auto;
+    margin: 32px auto;
     padding: 0 1rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 2rem;
+    gap: 32px;
 }
 
 /* Seção de pratos em destaque */
 .featured-dishes {
     background-color: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -116,7 +116,7 @@ body {
 .dish-card .price {
     font-weight: bold;
     color: #c41e3a;
-    font-size: 1.2rem;
+    font-size: 1.32px;
     padding: 1rem;
 }
 
@@ -140,7 +140,7 @@ body {
 /* Sidebar */
 .sidebar {
     background-color: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -154,7 +154,7 @@ body {
 .video-section,
 .horario-funcionamento,
 .reserva-form {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .horario-funcionamento ul {
@@ -215,45 +215,40 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 32px;
 }
 
 .footer-info h4,
 .social-links h4,
 .newsletter h4 {
     font-family: 'Playfair Display', serif;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    margin-bottom: 16px;
+    font-size: 20.8px;
 }
 
 .social-links a {
     color: #fff;
     text-decoration: none;
     display: block;
-    margin-bottom: 0.5rem;
-    transition: color 0.3s;
+    margin-bottom: 8px;
 }
 
 .social-links a:hover {
     color: #c41e3a;
 }
-
 .newsletter input {
     width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
+    padding: 12.8px;        
+    margin-bottom: 16px;    
     border: none;
     border-radius: 4px;
 }
-
 .newsletter button {
     background-color: #c41e3a;
     color: #fff;
     border: none;
-    padding: 0.8rem 1.5rem;
+    padding: 12.8px 24px;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 .newsletter button:hover {
@@ -262,24 +257,7 @@ body {
 
 .copyright {
     text-align: center;
-    margin-top: 2rem;
-    padding-top: 2rem;
+    margin-top: 32px;
+    padding-top: 32px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .main-content {
-        grid-template-columns: 1fr;
-    }
-
-    .main-nav ul {
-        flex-direction: column;
-        text-align: center;
-        gap: 16px;
-    }
-
-    .dishes-grid {
-        grid-template-columns: 1fr;
-    }
-} 

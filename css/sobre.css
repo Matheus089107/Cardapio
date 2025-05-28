@@ -193,25 +193,3 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-@media (max-width: 768px) {
-    .historia h1 {
-        font-size: 2.5rem;
-    }
-
-    .filosofia-content {
-        grid-template-columns: 1fr;
-    }
-
-    .equipe-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .galeria {
-        grid-template-columns: 1fr;
-    }
-
-    .galeria img {
-        height: 250px;
-    }
-} 
