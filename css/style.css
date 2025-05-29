@@ -55,7 +55,7 @@ body {
 .main-content {
     max-width: 1200px;
     margin: 32px auto;
-    padding: 0 1rem;
+    padding: 0 16px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 32px;
