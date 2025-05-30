@@ -1,17 +1,17 @@
 /* Estilos específicos para a página Sobre */
 .sobre-content {
     max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+    margin: 32px auto;
+    padding: 0 16px;
 }
 
 /* Seção História */
 .historia h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 48px;
     color: #2c3e50;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
     position: relative;
 }
 
@@ -21,15 +21,15 @@
     width: 60px;
     height: 3px;
     background-color: #c41e3a;
-    margin: 1rem auto;
+    margin: 16px auto;
 }
 
 .historia-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 48px;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
 }
 
 .historia-img {
@@ -41,36 +41,36 @@
 }
 
 .historia-texto p {
-    font-size: 1.1rem;
+    font-size: 17.6px;
     line-height: 1.8;
     color: #555;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 /* Seção Filosofia */
 .filosofia {
     background-color: #f9f9f9;
-    padding: 4rem 0;
-    margin: 4rem 0;
+    padding: 64px 0;
+    margin: 64px 0;
 }
 
 .filosofia h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #2c3e50;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 
 .filosofia-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 32px;
 }
 
 .filosofia-card {
     background: #fff;
-    padding: 2rem;
+    padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -81,14 +81,14 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .filosofia-card h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #2c3e50;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .filosofia-card p {
@@ -98,21 +98,21 @@
 
 /* Seção Equipe */
 .equipe {
-    padding: 4rem 0;
+    padding: 64px 0;
 }
 
 .equipe h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #2c3e50;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 
 .equipe-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 32px;
 }
 
 .membro-equipe {
@@ -124,21 +124,21 @@
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .membro-equipe h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #2c3e50;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .membro-equipe .cargo {
     color: #c41e3a;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .membro-equipe p {
@@ -148,22 +148,22 @@
 
 /* Seção Ambiente */
 .ambiente {
-    padding: 4rem 0;
+    padding: 64px 0;
     background-color: #f9f9f9;
 }
 
 .ambiente h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #2c3e50;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
 }
 
 .galeria {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 32px;
 }
 
 .galeria img {
@@ -179,17 +179,3 @@
     transform: scale(1.05);
 }
 
-/* Responsividade */
-@media (max-width: 992px) {
-    .historia-content {
-        grid-template-columns: 1fr;
-    }
-
-    .filosofia-content {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .equipe-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}

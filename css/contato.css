@@ -77,9 +77,7 @@
     color: #fff;
     border: none;
     border-radius: 4px;
-    font-size: 1.16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 17.6px;
 }
 
 .btn-enviar:hover {
@@ -102,7 +100,7 @@
 
 .info-card h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
+    font-size: 28.8px;
     color: #2c3e50;
     margin-bottom: 32px;
 }
@@ -149,7 +147,7 @@
 
 .mapa h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
+    font-size:28,8px;
     color: #2c3e50;
     margin-bottom: 24px;
 }
@@ -158,13 +156,3 @@
     border-radius: 4px;
 }
 
-/* Responsividade */
-@media (max-width: 992px) {
-    .contato-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .contato-info {
-        order: -1;
-    }
-}

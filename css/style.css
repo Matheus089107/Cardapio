@@ -15,15 +15,14 @@ body {
 .main-header {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    padding: 16px;
     position: sticky;
     top: 0;
-    z-index: 1000;
 }
 
 .logo-container {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .logo {
@@ -41,8 +40,8 @@ body {
     text-decoration: none;
     color: #333;
     font-weight: 500;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
+    font-size: 1.16px;
+    padding: 8px 16px;
     transition: color 0.3s;
 }
 
@@ -91,10 +90,6 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.dish-card:hover {
-    transform: translateY(-5px);
-}
-
 .dish-card img {
     width: 100%;
     height: 200px;
@@ -117,27 +112,24 @@ body {
     font-weight: bold;
     color: #c41e3a;
     font-size: 1.32px;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .btn-ver-mais {
     display: block;
     width: calc(100% - 32px);
     margin: 16px;
-    padding: 0.8rem;
+    padding: 12.8px;
     background-color: #c41e3a;
     color: #fff;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 .btn-ver-mais:hover {
     background-color: #a01830;
 }
 
-/* Sidebar */
 .sidebar {
     background-color: #fff;
     padding: 32px;
@@ -148,7 +140,7 @@ body {
 .sidebar h3 {
     font-family: 'Playfair Display', serif;
     color: #2c3e50;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .video-section,
@@ -162,40 +154,39 @@ body {
 }
 
 .horario-funcionamento li {
-    padding: 0.5rem 0;
+    padding: 8px 0;
     border-bottom: 1px solid #eee;
 }
 
 /* Formulário de reserva */
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     color: #666;
 }
 
 .form-group input,
 .form-group select {
     width: 100%;
-    padding: 0.8rem;
+    padding: 12.8px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .btn-reservar {
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
     background-color: #c41e3a;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.1rem;
-    transition: background-color 0.3s;
+    font-size: 1.16px;
 }
 
 .btn-reservar:hover {
@@ -206,8 +197,8 @@ body {
 .main-footer {
     background-color: #2c3e50;
     color: #fff;
-    padding: 3rem 1rem;
-    margin-top: 4rem;
+    padding: 48px 16px;
+    margin-top: 64px;
 }
 
 .footer-content {
