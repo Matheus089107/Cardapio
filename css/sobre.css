@@ -1,11 +1,9 @@
-/* Estilos específicos para a página Sobre */
 .sobre-content {
     max-width: 1200px;
     margin: 32px auto;
     padding: 0 16px;
 }
 
-/* Seção História */
 .historia h1 {
     font-family: 'Playfair Display', serif;
     font-size: 48px;
@@ -47,7 +45,6 @@
     margin-bottom: 24px;
 }
 
-/* Seção Filosofia */
 .filosofia {
     background-color: #f9f9f9;
     padding: 64px 0;
@@ -96,7 +93,6 @@
     line-height: 1.6;
 }
 
-/* Seção Equipe */
 .equipe {
     padding: 64px 0;
 }
@@ -146,7 +142,6 @@
     line-height: 1.6;
 }
 
-/* Seção Ambiente */
 .ambiente {
     padding: 64px 0;
     background-color: #f9f9f9;
@@ -172,10 +167,5 @@
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.galeria img:hover {
-    transform: scale(1.05);
 }
 
