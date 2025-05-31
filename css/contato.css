@@ -10,7 +10,6 @@
     color: #2c3e50;
     text-align: center;
     margin-bottom: 48px;
-    position: relative;
 }
 
 .contato-content h1::after {
@@ -150,4 +149,5 @@
     font-size: 28.8px;
     color: #2c3e50;
     margin-bottom: 24px;
+    text-align: center;
 }
